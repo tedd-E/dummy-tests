@@ -1,11 +1,12 @@
 package parity_test
 
 import (
-	"github.com/tedd-E/dummy-tests/parity"
+	fern "github.com/guidewire/fern-ginkgo-client/pkg/client"
 	"testing"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
+	"github.com/tedd-E/dummy-tests/parity"
 )
 
 func TestEvenOdd(t *testing.T) {
@@ -13,7 +14,7 @@ func TestEvenOdd(t *testing.T) {
 	RunSpecs(t, "EvenOdd Suite")
 }
 
-var _ = Describe("IsEven", func() {
+var _ = Describe("IsEven", Label("parity"), func() {
 	It("should return true for 0", func() {
 		Expect(parity.IsEven(0)).To(BeTrue())
 	})
@@ -33,4 +34,14 @@ var _ = Describe("IsEven", func() {
 	It("should return false for a negative odd number", func() {
 		Expect(parity.IsEven(-3)).To(BeFalse())
 	})
+})
+
+var _ = ReportAfterSuite("", func(report Report) {
+	f := fern.New("Parity Tests",
+		fern.WithBaseURL("http://localhost:8080/"),
+	)
+
+	err := f.Report("Parity Tests", report)
+
+	Expect(err).To(BeNil(), "Unable to create reporter file")
 })

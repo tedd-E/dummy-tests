@@ -4,6 +4,10 @@ import (
 	fern "github.com/guidewire/fern-ginkgo-client/pkg/client"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
+
+	_ "github.com/tedd-E/dummy-tests/addition"
+	_ "github.com/tedd-E/dummy-tests/parity"
+	_ "github.com/tedd-E/dummy-tests/strings"
 	"testing"
 )
 
