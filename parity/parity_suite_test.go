@@ -9,12 +9,12 @@ import (
 	"github.com/tedd-E/dummy-tests/parity"
 )
 
-func TestEvenOdd(t *testing.T) {
+func TestParity(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "EvenOdd Suite")
+	RunSpecs(t, "Parity Suite")
 }
 
-var _ = Describe("IsEven", Label("parity"), func() {
+var _ = Describe("IsEvenPositive", Label("parity", "positive"), func() {
 	It("should return true for 0", func() {
 		Expect(parity.IsEven(0)).To(BeTrue())
 	})
