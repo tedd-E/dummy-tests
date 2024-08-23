@@ -1,7 +1,6 @@
 package parity_test
 
 import (
-	fern "github.com/guidewire/fern-ginkgo-client/pkg/client"
 	"testing"
 
 	. "github.com/onsi/ginkgo/v2"
@@ -36,12 +35,12 @@ var _ = Describe("IsEvenPositive", Label("parity", "positive"), func() {
 	})
 })
 
-var _ = ReportAfterSuite("", func(report Report) {
-	f := fern.New("Parity Tests",
-		fern.WithBaseURL("http://localhost:8080/"),
-	)
-
-	err := f.Report("Parity Tests", report)
-
-	Expect(err).To(BeNil(), "Unable to create reporter file")
-})
+//var _ = ReportAfterSuite("", func(report Report) {
+//	f := fern.New("Parity Tests",
+//		fern.WithBaseURL("http://localhost:8080/"),
+//	)
+//
+//	err := f.Report("Parity Tests", report)
+//
+//	Expect(err).To(BeNil(), "Unable to create reporter file")
+//})

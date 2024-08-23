@@ -1,7 +1,6 @@
 package dummy_tests_test
 
 import (
-	fern "github.com/guidewire/fern-ginkgo-client/pkg/client"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
@@ -16,12 +15,12 @@ func TestDummyTests(t *testing.T) {
 	RunSpecs(t, "DummyTests Suite")
 }
 
-var _ = ReportAfterSuite("", func(report Report) {
-	f := fern.New("Dummy Tests",
-		fern.WithBaseURL("http://localhost:8080/"),
-	)
-
-	err := f.Report("Dummy Tests", report)
-
-	Expect(err).To(BeNil(), "Unable to create reporter file")
-})
+//var _ = ReportAfterSuite("", func(report Report) {
+//	f := fern.New("Dummy Tests",
+//		fern.WithBaseURL("http://localhost:8080/"),
+//	)
+//
+//	err := f.Report("Dummy Tests", report)
+//
+//	Expect(err).To(BeNil(), "Unable to create reporter file")
+//})
