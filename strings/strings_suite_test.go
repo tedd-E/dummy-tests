@@ -26,12 +26,12 @@ var _ = Describe("StringLength", Label("string"), func() {
 	})
 })
 
-//var _ = ReportAfterSuite("", func(report Report) {
-//	f := fern.New("String Tests",
-//		fern.WithBaseURL("http://localhost:8080/"),
-//	)
-//
-//	err := f.Report("String Tests", report)
-//
-//	Expect(err).To(BeNil(), "Unable to create reporter file")
-//})
+var _ = ReportAfterSuite("", func(report Report) {
+	f := fern.New("String Tests",
+		fern.WithBaseURL("http://localhost:8080/"),
+	)
+
+	err := f.Report("String Tests", report)
+
+	Expect(err).To(BeNil(), "Unable to create reporter file")
+})

@@ -7,6 +7,7 @@ toolchain go1.22.5
 require (
 	github.com/99designs/gqlgen v0.17.49
 	github.com/Khan/genqlient v0.7.0
+	github.com/guidewire/fern-ginkgo-client v0.0.0-20240601015907-24a38525db05
 	github.com/onsi/ginkgo/v2 v2.20.1
 	github.com/onsi/gomega v1.34.1
 	github.com/tedd-E/dummy-tests v0.0.0-20240809194411-babbcb991e51
