@@ -1,6 +1,7 @@
 package strings_test
 
 import (
+	fern "github.com/guidewire-oss/fern-ginkgo-client/pkg/client"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/tedd-E/dummy-tests/strings"
@@ -9,7 +10,7 @@ import (
 
 func TestStrings(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "Strings Suite")
+	RunSpecs(t, "Strings Suite", Label("string", "non-empty", "hi", "wough", "hello", "kubevela", "acceptance"))
 }
 
 var _ = Describe("StringLength", Label("string"), func() {

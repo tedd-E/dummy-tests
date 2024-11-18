@@ -1,7 +1,7 @@
 package parity_test
 
 import (
-	fern "github.com/guidewire/fern-ginkgo-client/pkg/client"
+	fern "github.com/guidewire-oss/fern-ginkgo-client/pkg/client"
 	"testing"
 
 	. "github.com/onsi/ginkgo/v2"

@@ -1,7 +1,7 @@
 package addition_test
 
 import (
-	fern "github.com/guidewire/fern-ginkgo-client/pkg/client"
+	fern "github.com/guidewire-oss/fern-ginkgo-client/pkg/client"
 	"github.com/tedd-E/dummy-tests/addition"
 	"testing"
 
@@ -11,7 +11,7 @@ import (
 
 func TestMath(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "Math Suite")
+	RunSpecs(t, "Math Suite", Label("sum", "addition", "hello", "hi", "wough", "atmos", "keda", "acceptance"))
 }
 
 var _ = Describe("Sum", Label("sum"), func() {

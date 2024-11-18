@@ -1,7 +1,7 @@
 package dummy_tests_test
 
 import (
-	fern "github.com/guidewire/fern-ginkgo-client/pkg/client"
+	fern "github.com/guidewire-oss/fern-ginkgo-client/pkg/client"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
