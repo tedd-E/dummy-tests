@@ -11,6 +11,8 @@ require (
 	github.com/tedd-E/dummy-tests v0.0.0-20240809194411-babbcb991e51
 )
 
+replace github.com/guidewire-oss/fern-ginkgo-client => ./../fern-ginkgo-client
+
 require (
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect
