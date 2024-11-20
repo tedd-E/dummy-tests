@@ -32,6 +32,8 @@ github.com/stretchr/testify v1.9.0 h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsT
 github.com/stretchr/testify v1.9.0/go.mod h1:r2ic/lqez/lEtzL7wO/rwa5dbSLXVDPFyf8C91i36aY=
 github.com/tedd-E/dummy-tests v0.0.0-20240809194411-babbcb991e51 h1:2IeTsS00TOSXdmxfDELWuUfSbuU9BEw+29cY2UGVGEM=
 github.com/tedd-E/dummy-tests v0.0.0-20240809194411-babbcb991e51/go.mod h1:o0hX4D526Dg+Qv4TGBZjfp6H+Vwlm5yr2PDYtu38dLU=
+github.com/tedd-E/fern-ginkgo-client v0.0.0-20241119003946-871ba2b48000 h1:5zpJQkkjRCE6qlreMwaEM+hUHtqFlCf5DCEK2Jpv0wQ=
+github.com/tedd-E/fern-ginkgo-client v0.0.0-20241119003946-871ba2b48000/go.mod h1:2jWYiTxcSWyV4kXlkJbWuZ3FYQubbBFAdpCcn9x8qHM=
 golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56 h1:2dVuKD2vS7b0QIHQbpyTISPd0LeHDbnYEryqj5Q1ug8=
 golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56/go.mod h1:M4RDyNAINzryxdtnbRXRL/OHtkFuWGRjvuhBJpk2IlY=
 golang.org/x/net v0.28.0 h1:a9JDOJc5GMUJ0+UDqmLT86WiEy7iWyIhz8gz8E4e5hE=

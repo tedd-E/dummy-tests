@@ -1,0 +1,174 @@
+[
+  {
+    "SuitePath": "/Users/kailee/yuge/dummy-tests",
+    "SuiteDescription": "",
+    "SuiteLabels": null,
+    "SuiteSucceeded": false,
+    "SuiteHasProgrammaticFocus": false,
+    "SpecialSuiteFailureReasons": [
+      "Failed to compile dummy-tests:\n\n# dummy-tests\ndummy_tests_suite_test.go:4:2: missing go.sum entry for module providing package github.com/guidewire-oss/fern-ginkgo-client/pkg/client (imported by dummy-tests); to add:\n\tgo get -t dummy-tests\nFAIL\tdummy-tests [setup failed]\nFAIL\n"
+    ],
+    "PreRunStats": {
+      "TotalSpecs": 0,
+      "SpecsThatWillRun": 0
+    },
+    "StartTime": "0001-01-01T00:00:00Z",
+    "EndTime": "0001-01-01T00:00:00Z",
+    "RunTime": 0,
+    "SuiteConfig": {
+      "RandomSeed": 1731970437,
+      "RandomizeAllSpecs": false,
+      "FocusStrings": null,
+      "SkipStrings": null,
+      "FocusFiles": null,
+      "SkipFiles": null,
+      "LabelFilter": "",
+      "FailOnPending": false,
+      "FailOnEmpty": false,
+      "FailFast": false,
+      "FlakeAttempts": 0,
+      "MustPassRepeatedly": 0,
+      "DryRun": false,
+      "PollProgressAfter": 0,
+      "PollProgressInterval": 0,
+      "Timeout": 3600000000000,
+      "EmitSpecProgress": false,
+      "OutputInterceptorMode": "",
+      "SourceRoots": null,
+      "GracePeriod": 30000000000,
+      "ParallelProcess": 1,
+      "ParallelTotal": 1,
+      "ParallelHost": ""
+    },
+    "SpecReports": null
+  },
+  {
+    "SuitePath": "/Users/kailee/yuge/dummy-tests/addition",
+    "SuiteDescription": "",
+    "SuiteLabels": null,
+    "SuiteSucceeded": false,
+    "SuiteHasProgrammaticFocus": false,
+    "SpecialSuiteFailureReasons": [
+      "Failed to compile addition:\n\n# dummy-tests/addition\naddition_suite_test.go:4:2: missing go.sum entry for module providing package github.com/guidewire-oss/fern-ginkgo-client/pkg/client (imported by dummy-tests/addition); to add:\n\tgo get -t dummy-tests/addition\nFAIL\tdummy-tests/addition [setup failed]\nFAIL\n"
+    ],
+    "PreRunStats": {
+      "TotalSpecs": 0,
+      "SpecsThatWillRun": 0
+    },
+    "StartTime": "0001-01-01T00:00:00Z",
+    "EndTime": "0001-01-01T00:00:00Z",
+    "RunTime": 0,
+    "SuiteConfig": {
+      "RandomSeed": 1731970437,
+      "RandomizeAllSpecs": false,
+      "FocusStrings": null,
+      "SkipStrings": null,
+      "FocusFiles": null,
+      "SkipFiles": null,
+      "LabelFilter": "",
+      "FailOnPending": false,
+      "FailOnEmpty": false,
+      "FailFast": false,
+      "FlakeAttempts": 0,
+      "MustPassRepeatedly": 0,
+      "DryRun": false,
+      "PollProgressAfter": 0,
+      "PollProgressInterval": 0,
+      "Timeout": 3600000000000,
+      "EmitSpecProgress": false,
+      "OutputInterceptorMode": "",
+      "SourceRoots": null,
+      "GracePeriod": 30000000000,
+      "ParallelProcess": 1,
+      "ParallelTotal": 1,
+      "ParallelHost": ""
+    },
+    "SpecReports": null
+  },
+  {
+    "SuitePath": "/Users/kailee/yuge/dummy-tests/parity",
+    "SuiteDescription": "",
+    "SuiteLabels": null,
+    "SuiteSucceeded": false,
+    "SuiteHasProgrammaticFocus": false,
+    "SpecialSuiteFailureReasons": [
+      "Failed to compile parity:\n\n# dummy-tests/parity\nparity_suite_test.go:4:2: missing go.sum entry for module providing package github.com/guidewire-oss/fern-ginkgo-client/pkg/client (imported by dummy-tests/parity); to add:\n\tgo get -t dummy-tests/parity\nFAIL\tdummy-tests/parity [setup failed]\nFAIL\n"
+    ],
+    "PreRunStats": {
+      "TotalSpecs": 0,
+      "SpecsThatWillRun": 0
+    },
+    "StartTime": "0001-01-01T00:00:00Z",
+    "EndTime": "0001-01-01T00:00:00Z",
+    "RunTime": 0,
+    "SuiteConfig": {
+      "RandomSeed": 1731970437,
+      "RandomizeAllSpecs": false,
+      "FocusStrings": null,
+      "SkipStrings": null,
+      "FocusFiles": null,
+      "SkipFiles": null,
+      "LabelFilter": "",
+      "FailOnPending": false,
+      "FailOnEmpty": false,
+      "FailFast": false,
+      "FlakeAttempts": 0,
+      "MustPassRepeatedly": 0,
+      "DryRun": false,
+      "PollProgressAfter": 0,
+      "PollProgressInterval": 0,
+      "Timeout": 3600000000000,
+      "EmitSpecProgress": false,
+      "OutputInterceptorMode": "",
+      "SourceRoots": null,
+      "GracePeriod": 30000000000,
+      "ParallelProcess": 1,
+      "ParallelTotal": 1,
+      "ParallelHost": ""
+    },
+    "SpecReports": null
+  },
+  {
+    "SuitePath": "/Users/kailee/yuge/dummy-tests/strings",
+    "SuiteDescription": "",
+    "SuiteLabels": null,
+    "SuiteSucceeded": false,
+    "SuiteHasProgrammaticFocus": false,
+    "SpecialSuiteFailureReasons": [
+      "Suite did not run because prior suites failed and --keep-going is not set"
+    ],
+    "PreRunStats": {
+      "TotalSpecs": 0,
+      "SpecsThatWillRun": 0
+    },
+    "StartTime": "0001-01-01T00:00:00Z",
+    "EndTime": "0001-01-01T00:00:00Z",
+    "RunTime": 0,
+    "SuiteConfig": {
+      "RandomSeed": 1731970437,
+      "RandomizeAllSpecs": false,
+      "FocusStrings": null,
+      "SkipStrings": null,
+      "FocusFiles": null,
+      "SkipFiles": null,
+      "LabelFilter": "",
+      "FailOnPending": false,
+      "FailOnEmpty": false,
+      "FailFast": false,
+      "FlakeAttempts": 0,
+      "MustPassRepeatedly": 0,
+      "DryRun": false,
+      "PollProgressAfter": 0,
+      "PollProgressInterval": 0,
+      "Timeout": 3600000000000,
+      "EmitSpecProgress": false,
+      "OutputInterceptorMode": "",
+      "SourceRoots": null,
+      "GracePeriod": 30000000000,
+      "ParallelProcess": 1,
+      "ParallelTotal": 1,
+      "ParallelHost": ""
+    },
+    "SpecReports": null
+  }
+]

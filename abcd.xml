@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuites tests="5" disabled="0" errors="1" failures="0" time="719.088174875">
+      <testsuite name="Math Suite" package="/Users/kailee/yuge/dummy-tests" tests="5" disabled="0" skipped="0" errors="1" failures="0" time="719.088174875" timestamp="2024-11-19T16:19:03">
+          <properties>
+              <property name="SuiteSucceeded" value="false"></property>
+              <property name="SuiteHasProgrammaticFocus" value="false"></property>
+              <property name="SpecialSuiteFailureReason" value=""></property>
+              <property name="SuiteLabels" value="[sum,addition,hello,hi,wough,atmos,keda,acceptance]"></property>
+              <property name="RandomSeed" value="1732061937"></property>
+              <property name="RandomizeAllSpecs" value="false"></property>
+              <property name="LabelFilter" value=""></property>
+              <property name="FocusStrings" value="Sum"></property>
+              <property name="SkipStrings" value=""></property>
+              <property name="FocusFiles" value=""></property>
+              <property name="SkipFiles" value=""></property>
+              <property name="FailOnPending" value="false"></property>
+              <property name="FailOnEmpty" value="false"></property>
+              <property name="FailFast" value="false"></property>
+              <property name="FlakeAttempts" value="0"></property>
+              <property name="DryRun" value="false"></property>
+              <property name="ParallelTotal" value="1"></property>
+              <property name="OutputInterceptorMode" value=""></property>
+          </properties>
+          <testcase name="[It] Sum should return 0 when both inputs are 0 [abcde]" classname="Math Suite" status="passed" time="0.801228459">
+              <system-err>&gt; Enter [It] should return 0 when both inputs are 0 - /Users/kailee/yuge/dummy-tests/addition_suite_test.go:28 @ 11/19/24 16:19:03.378&#xA;&lt; Exit [It] should return 0 when both inputs are 0 - /Users/kailee/yuge/dummy-tests/addition_suite_test.go:28 @ 11/19/24 16:19:04.179 (801ms)&#xA;</system-err>
+          </testcase>
+          <testcase name="[It] Sum should return the correct sum of positive numbers [abcde]" classname="Math Suite" status="passed" time="2.1541e-05">
+              <system-err>&gt; Enter [It] should return the correct sum of positive numbers - /Users/kailee/yuge/dummy-tests/addition_suite_test.go:32 @ 11/19/24 16:19:04.179&#xA;&lt; Exit [It] should return the correct sum of positive numbers - /Users/kailee/yuge/dummy-tests/addition_suite_test.go:32 @ 11/19/24 16:19:04.179 (0s)&#xA;</system-err>
+          </testcase>
+          <testcase name="[It] Sum should return the correct sum when one input is negative [abcde]" classname="Math Suite" status="passed" time="1.775e-05">
+              <system-err>&gt; Enter [It] should return the correct sum when one input is negative - /Users/kailee/yuge/dummy-tests/addition_suite_test.go:36 @ 11/19/24 16:19:04.179&#xA;&lt; Exit [It] should return the correct sum when one input is negative - /Users/kailee/yuge/dummy-tests/addition_suite_test.go:36 @ 11/19/24 16:19:04.179 (0s)&#xA;</system-err>
+          </testcase>
+          <testcase name="[SynchronizedAfterSuite]" classname="Math Suite" status="passed" time="718.286557791">
+              <system-err>&gt; Enter [SynchronizedAfterSuite] TOP-LEVEL - /Users/kailee/yuge/dummy-tests/hook_test.go:17 @ 11/19/24 16:19:04.179&#xA;&lt; Exit [SynchronizedAfterSuite] TOP-LEVEL - /Users/kailee/yuge/dummy-tests/hook_test.go:17 @ 11/19/24 16:20:00.306 (56.127s)&#xA;&gt; Enter [SynchronizedAfterSuite] TOP-LEVEL - /Users/kailee/yuge/dummy-tests/hook_test.go:17 @ 11/19/24 16:20:00.306&#xA;&lt; Exit [SynchronizedAfterSuite] TOP-LEVEL - /Users/kailee/yuge/dummy-tests/hook_test.go:17 @ 11/19/24 16:31:02.496 (11m2.16s)&#xA;</system-err>
+          </testcase>
+          <testcase name="[ReportAfterSuite]" classname="Math Suite" status="panicked" time="0.002855334">
+              <error message="runtime error: invalid memory address or nil pointer dereference" type="panicked">[PANICKED] Test Panicked&#xA;In [ReportAfterSuite] at: /Users/kailee/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.5.darwin-arm64/src/runtime/panic.go:261 @ 11/19/24 16:31:02.499&#xA;&#xA;runtime error: invalid memory address or nil pointer dereference&#xA;&#xA;Full Stack Trace&#xA;  github.com/guidewire-oss/fern-ginkgo-client/pkg/client.(*FernApiClient).Report(_, {_, _}, {{0x14000030034, 0x1e}, {0x100ab541f, 0xa}, {0x140002b8080, 0x8, 0x8}, ...})&#xA;  &#x9;/Users/kailee/go/pkg/mod/github.com/tedd-!e/fern-ginkgo-client@v0.0.0-20241119003946-871ba2b48000/pkg/client/ginkgo_fern_reporter.go:59 +0x388&#xA;  dummy-tests_test.init.func2({{0x14000030034, 0x1e}, {0x100ab541f, 0xa}, {0x140002b8080, 0x8, 0x8}, 0x1, 0x0, {0x0, ...}, ...})&#xA;  &#x9;/Users/kailee/yuge/dummy-tests/dummy_tests_suite_test.go:24 +0xd8&#xA;</error>
+              <system-err>&gt; Enter [ReportAfterSuite] TOP-LEVEL - /Users/kailee/yuge/dummy-tests/dummy_tests_suite_test.go:19 @ 11/19/24 16:31:02.496&#xA;[PANICKED] Test Panicked&#xA;In [ReportAfterSuite] at: /Users/kailee/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.5.darwin-arm64/src/runtime/panic.go:261 @ 11/19/24 16:31:02.499&#xA;&#xA;runtime error: invalid memory address or nil pointer dereference&#xA;&#xA;Full Stack Trace&#xA;  github.com/guidewire-oss/fern-ginkgo-client/pkg/client.(*FernApiClient).Report(_, {_, _}, {{0x14000030034, 0x1e}, {0x100ab541f, 0xa}, {0x140002b8080, 0x8, 0x8}, ...})&#xA;  &#x9;/Users/kailee/go/pkg/mod/github.com/tedd-!e/fern-ginkgo-client@v0.0.0-20241119003946-871ba2b48000/pkg/client/ginkgo_fern_reporter.go:59 +0x388&#xA;  dummy-tests_test.init.func2({{0x14000030034, 0x1e}, {0x100ab541f, 0xa}, {0x140002b8080, 0x8, 0x8}, 0x1, 0x0, {0x0, ...}, ...})&#xA;  &#x9;/Users/kailee/yuge/dummy-tests/dummy_tests_suite_test.go:24 +0xd8&#xA;&lt; Exit [ReportAfterSuite] TOP-LEVEL - /Users/kailee/yuge/dummy-tests/dummy_tests_suite_test.go:19 @ 11/19/24 16:31:02.499 (3ms)&#xA;</system-err>
+          </testcase>
+      </testsuite>
+  </testsuites>
