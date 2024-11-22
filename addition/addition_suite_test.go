@@ -1,7 +1,7 @@
 package addition_test
 
 import (
-	fern "github.com/guidewire-oss/fern-ginkgo-client/pkg/client"
+	"dummy-tests/client"
 	"github.com/tedd-E/dummy-tests/addition"
 	"testing"
 
@@ -29,11 +29,8 @@ var _ = Describe("Sum", Label("sum"), func() {
 })
 
 var _ = ReportAfterSuite("", func(report Report) {
-	f := fern.New("Addition Tests",
-		fern.WithBaseURL("http://localhost:8080/"),
-	)
 
-	err := f.Report("Addition Tests", report)
+	err := client.FernClient.Report("Addition Tests", report)
 
 	Expect(err).To(BeNil(), "Unable to create reporter file")
 })
